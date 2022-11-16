@@ -1,22 +1,23 @@
-import React, { Fragment } from "react";
-import one from "../assests/display/1.png";
-import two from "../assests/display/2.png";
-import three from "../assests/display/3.png";
-import four from "../assests/display/4.png";
-import five from "../assests/display/5.png";
-import six from "../assests/display/6.png";
-import seven from "../assests/display/7.png";
-import eight from "../assests/display/8.png";
-import nine from "../assests/display/9.png";
-import ten from "../assests/display/10.png";
-import eleven from "../assests/display/11.png";
-import twelve from "../assests/display/12.png";
-import thirteen from "../assests/display/13.png";
-import fourteen from "../assests/display/14.png";
-import fifteen from "../assests/display/15.png";
-import sixteen from "../assests/display/16.png";
-import stars from "../assests/display/stars.png";
-import Card from "./UI/Card";
+import React from "react";
+
+import one from "../../../assests/display/1.png";
+import two from "../../../assests/display/2.png";
+import three from "../../../assests/display/3.png";
+import four from "../../../assests/display/4.png";
+import five from "../../../assests/display/5.png";
+import six from "../../../assests/display/6.png";
+import seven from "../../../assests/display/7.png";
+import eight from "../../../assests/display/8.png";
+import nine from "../../../assests/display/9.png";
+import ten from "../../../assests/display/10.png";
+import eleven from "../../../assests/display/11.png";
+import twelve from "../../../assests/display/12.png";
+import thirteen from "../../../assests/display/13.png";
+import fourteen from "../../../assests/display/14.png";
+import fifteen from "../../../assests/display/15.png";
+import sixteen from "../../../assests/display/16.png";
+import stars from "../../../assests/display/stars.png";
+import Card from "../../../components/UI/Card";
 
 const Display = () => {
   const photos = [

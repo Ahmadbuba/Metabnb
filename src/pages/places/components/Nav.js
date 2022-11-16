@@ -1,4 +1,4 @@
-import setting from "../../src/assests/nav/setting.png";
+import setting from "../../../assests/nav/setting.png";
 
 const Nav = () => {
   const items = [

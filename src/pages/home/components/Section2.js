@@ -1,7 +1,7 @@
 import React from "react";
-import first from "../../src/assests/section2/first.png";
-import second from "../../src/assests/section2/second.png";
-import third from "../../src/assests/section2/third.png";
+import first from "../../../assests/section2/first.png";
+import second from "../../../assests/section2/second.png";
+import third from "../../../assests/section2/third.png";
 
 const Section2 = () => {
   return (

@@ -1,10 +1,8 @@
 import React from "react";
-import three from "../../src/assests/section1/image 3.png";
-import four from "../../src/assests/section1/image 4.png";
-import five from "../../src/assests/section1/image 5.png";
-import six from "../../src/assests/section1/image 6.png";
-
-// className="pt-6 flex flex-col gap-6 md:flex md:flex-row md:items-start md:ml-32"
+import three from "../../../assests/section1/image 3.png";
+import four from "../../../assests/section1/image 4.png";
+import five from "../../../assests/section1/image 5.png";
+import six from "../../../assests/section1/image 6.png";
 
 const Section1 = () => {
   return (

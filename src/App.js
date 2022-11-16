@@ -1,8 +1,8 @@
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 import React, { useState } from "react";
-import Places from "./pages/Places";
+import Places from "./pages/places/Places";
 import Modal from "./components/Modal";
 import Header from "./components/Header";
 import Footer from "./components/Footer";

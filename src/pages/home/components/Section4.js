@@ -1,7 +1,4 @@
-import seven from "../../src/assests/section3/image 7.png";
-import eight from "../../src/assests/section3/image 8.png";
-import nine from "../../src/assests/section3/image 9.png";
-import frame from "../../src/assests/section3/Frame.png";
+import frame from "../../../assests/section3/Frame.png";
 
 const Section4 = () => {
   return (
@@ -25,8 +22,6 @@ const Section4 = () => {
         </div>
         <div className="sm:px-3 md: flex-auto">
           <img src={frame} width="2000" />
-          {/* <img src={seven} width="300" className="absolute top-24 left-28" /> */}
-          {/* <img src={eight} className="absolute" /> */}
         </div>
       </div>
     </div>
