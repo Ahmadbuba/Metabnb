@@ -29,6 +29,12 @@ module.exports = {
             fontWeight: "700",
           },
         ],
+        "11xl": [
+          "0.75rem",
+          {
+            lineHeight: "0.83rem",
+          },
+        ],
       },
     },
   },

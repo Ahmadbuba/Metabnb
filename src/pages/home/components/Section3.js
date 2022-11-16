@@ -23,17 +23,16 @@ const Section3 = () => {
         {photos.map((photo) => (
           <Card>
             <img src={photo} className="object-cover w-full" />
-            <div className="flex justify-between">
-              <div className="p-1">
-                <p className="tracking-tight">Desert king</p>
-                <p className="tracking-tight">2345km away</p>
-              </div>
-              <div className="p-1">
-                <h2 className="text-right tracking-tight">1MBT per night</h2>
-                <p className="tracking-tight">available for 2weeks stay</p>
-              </div>
+            <div className="flex justify-between pt-4 pb-2">
+              <p className=" tracking-tighter">Desert king</p>
+              <h2 className="tracking-tighter font-bold">1MBT per night</h2>
             </div>
-            <div className="py-1">
+
+            <div className="flex justify-between">
+              <p className="tracking-tighter">2345km away</p>
+              <p className="tracking-tighter">available for 2weeks stay</p>
+            </div>
+            <div className="py-1 pt-2">
               <img src={stars} />
             </div>
           </Card>

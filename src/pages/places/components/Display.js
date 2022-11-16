@@ -45,16 +45,16 @@ const Display = () => {
         {photos.map((photo) => (
           <Card>
             <img src={photo} className=" w-full object-cover" />
-            <div className=" py-1 flex justify-between">
+            <div className="flex justify-between pt-4 pb-2">
               <p className=" tracking-tighter">Desert king</p>
-              <h2 className="tracking-tighter">1MBT per night</h2>
+              <h2 className="tracking-tighter font-bold">1MBT per night</h2>
             </div>
 
-            <div className=" py-1 flex justify-between">
+            <div className="flex justify-between">
               <p className="tracking-tighter">2345km away</p>
               <p className="tracking-tighter">available for 2weeks stay</p>
             </div>
-            <div className="py-1">
+            <div className="py-1 pt-2">
               <img src={stars} />
             </div>
           </Card>
